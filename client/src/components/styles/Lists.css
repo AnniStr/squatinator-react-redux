@@ -1,0 +1,88 @@
+/* CSS for Components ExerciseList, WorkoutList and WorkoutExerciseList */
+
+.list {
+    background: rgba(235, 233, 233, 0.705); 
+    color: rgb(73, 72, 72);
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.listWE {
+    background: rgb(204, 212, 216); 
+    color: rgb(73, 72, 72);
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.remove-btn { 
+    margin-right: .5rem; 
+    margin-left: .5rem;
+    margin-top: -0.2rem;
+    margin-bottom: 5px;
+    padding: .25rem .65rem;
+    float: right;
+}
+
+.pX { 
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pKG {
+    text-align: end;
+    margin-bottom: 0px;
+}
+
+.jumboList {
+    background: rgba(235, 233, 233, 0.7); 
+    color: black;
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;  
+    margin-bottom: 50px;      
+    border-radius: 15px;
+}
+
+.link { 
+    color: rgb(31, 93, 100); 
+    margin-bottom: 5px; 
+}
+
+.link:hover { 
+    color:#2A98A4; 
+    text-decoration: none; 
+}
+
+.remove-btn { 
+    margin-right: .5rem; 
+    margin-left: .5rem;
+    margin-top: -.2rem;
+    float: right;
+}
+
+.head-row {
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.head-row .remove-btn { 
+    margin-right: 0;
+}
+
+.inputWE {
+    margin-bottom: 5px;
+}
+
+.form-control#sets, .form-control#rpt, .form-control#rptMax {
+    text-align: right;
+    display: inline-block;
+    width: 3rem;
+}
+
+.pull-right {
+    float: right;
+}

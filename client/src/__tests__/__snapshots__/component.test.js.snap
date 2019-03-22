@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component it matches the snapshot 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="jumboHome jumbotron"
+  >
+    <div
+      className="container"
+    >
+      <h3>
+        Welcome to Squatinator
+      </h3>
+      <p>
+        Now you can start creating your own and super indivdual training.
+      </p>
+      <p>
+        First you can create your favorite exercises and the workouts you want to do. In the second step add your exercises to the workout and set how many repetitions you wanna do in one set and how many sets you wanna do in your training. Also you can set the repetition maximum.
+      </p>
+      <h5>
+        Don't wait, start now!
+      </h5>
+      <a
+        aria-label={null}
+        className="nav-btn btn btn-warning btn-block"
+        href="/workouts"
+        onClick={[Function]}
+      >
+        Workouts
+      </a>
+      <a
+        aria-label={null}
+        className="nav-btn btn btn-warning btn-block"
+        href="/exercises"
+        onClick={[Function]}
+      >
+        Exercises
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Welcome component it matches the snapshot 1`] = `
+<div
+  className="Welcome"
+>
+  <div
+    className="jumbo jumbotron jumbotron-fluid"
+  >
+    <div
+      className="container container"
+    >
+      <h2>
+        Welcome to Squatinator!
+      </h2>
+      <p>
+        The fitness app to create your own individual workoutplans.
+      </p>
+      <a
+        aria-label={null}
+        className="login-btn btn btn-warning btn-lg btn-block"
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+      <a
+        aria-label={null}
+        className="login-btn btn btn-warning btn-lg btn-block"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register now
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+.jumbo { 
+    background: rgba(235, 233, 233, 0.6); 
+    margin-left: auto; 
+    margin-right: auto;
+}
+input { 
+    background: rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0, .55), 0px 1px 1px rgba(255,255,255,.5);
+    border: 1px solid #666; 
+}
+.formReg { 
+    margin-top: 5px;
+}
+h2 { 
+    color: black;
+    text-shadow: 15px 16px 17px grey;
+    margin-bottom: 15pt;
+}
+.login-btn {
+    max-width: 400px;
+}

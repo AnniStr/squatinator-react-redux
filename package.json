@@ -1,0 +1,47 @@
+{
+  "name": "ws18-squatinator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "test": "mocha",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "client-prod": "cd client && npm serve -s build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "prod": "concurrently \"npm run start\" \"npm run client-prod\"",
+    "build": "cd client && npm run build && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.mi.hdm-stuttgart.de/mwa/ws18-squatinator.git"
+  },
+  "author": "Annika Strauß, Julia Grimm",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^6.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "enzyme": "^3.8.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "jest-enzyme": "^7.0.1",
+    "jsonwebtoken": "^8.4.0",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

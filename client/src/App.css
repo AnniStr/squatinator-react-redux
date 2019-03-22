@@ -1,0 +1,65 @@
+/*Buttons*/
+.remove-btn { 
+    margin-right: .5rem; 
+    margin-left: .5rem;
+    margin-top: 0px;
+    float: right;
+}
+.login-btn {  
+    margin-right: .5rem; 
+    margin-left: .5rem; 
+    color: rgb(73, 72, 72); 
+}
+.btn {
+    margin-right: .5rem;
+}
+
+/*fade in-out*/
+.fade-enter { 
+    opacity: 0.01;
+}
+.fade-enter-active { 
+    opacity: 1; 
+    transition: opacity 1000ms ease-in; 
+}
+.fade-exit { 
+    opacity: 1; 
+}
+.fade-exit-active {
+    opacity: 0.01; 
+    transition: opacity 1000ms ease-in; 
+}
+
+.App {
+    background-image:url('./components/styles/bild2.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 2000px){
+    .App{
+      min-height: 950px;
+    }
+  }
+
+  @media only screen and (max-width: 1500px){
+    .App{
+      min-height: 900px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .App{
+      min-height: 850px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .App{
+      min-height: 850px;
+    }
+}
+

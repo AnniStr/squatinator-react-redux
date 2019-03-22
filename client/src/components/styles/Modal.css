@@ -1,0 +1,27 @@
+/*CSS for Components ExerciseModal, WorkoutModal and WorkoutExerciseModal*/
+.mo-head { 
+    background:  transparent;
+    background-color: rgba(235, 233, 233); 
+    color:  rgba(75, 75, 75);
+    font-weight: bold;
+    border-bottom-color: rgb(134, 134, 134);    
+}
+
+.mo-body { 
+    background:  transparent;
+    background-color: rgba(235, 233, 233);
+    color: rgb(75, 75, 75);
+    font-weight: 200;
+}
+   
+.add-btn {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    max-width: 300px;
+}
+
+.label {
+    margin-bottom: 0px;
+
+}

@@ -1,0 +1,13 @@
+/*CSS for Component Exercises*/
+
+.list-con {
+    max-width: 830px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.modal-con {
+    max-width:  800px;
+    margin-right: auto;
+}

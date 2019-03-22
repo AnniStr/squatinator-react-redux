@@ -1,0 +1,10 @@
+/* CSS for Component Footer*/ 
+
+.mb-foot { 
+    background-color: rgba(42, 152, 164, 0.472); 
+    color: white;
+    text-align: center;
+}
+.pFoot {
+    text-align: center;
+}
